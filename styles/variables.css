@@ -1,1 +1,14 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --bg-gradient: url(../images/bg-gradient-light.png),
+    linear-gradient(180deg, #e7e7e7 0%, #1a1a1a 100%);
+  --font-main: "Inter", sans-serif;
+  --font-accent: "PressStart2P", sans-serif;
+  --color-main: #000000;
+  --section-title-font-weight-regular: 400;
+  --section-title-font-weight-bold: 700;
+  --bg-color: #ffffff;
+  --heart-contour-color: #000000;
+  --heart-body-color: #ff0000;
+}
