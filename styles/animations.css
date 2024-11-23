@@ -47,16 +47,8 @@
 /* Hover анимациия - конец */
 
 /* Active анимациия - начало */
-.like-icon .core {
-  transition: fill 0.3s 0.03s;
-}
-
 .like-icon:active .core {
   fill: var(--heart-body-color);
-  transition: fill 0.3s;
-}
-
-.like-icon .main-body {
   transition: fill 0.3s;
 }
 
@@ -90,6 +82,7 @@
 .like-icon.is-liked .sparks {
   animation: alternate heart-sparks-fade-in 0.3s 0.3s ease-in;
 }
+/* Click анимациия - конец */
 
 @keyframes heart-scale {
   from {
