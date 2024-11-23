@@ -37,6 +37,7 @@
 .button {
   position: relative;
   border: 2px solid var(--color-main);
+  padding: 12.5px 0;
   font-family: "PressStart2P", fantasy;
   font-weight: 400;
   font-size: 14px;
@@ -293,6 +294,7 @@
 .card__like-button {
   width: 130px;
   min-height: 38px;
+  padding: 0;
 }
 
 .card__icon-button {
