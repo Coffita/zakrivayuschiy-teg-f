@@ -37,7 +37,7 @@
 .button {
   position: relative;
   border: 2px solid var(--color-main);
-  padding: 12.5px 0;
+  padding: 10.5px 0;
   font-family: "PressStart2P", fantasy;
   font-weight: 400;
   font-size: 14px;
@@ -340,8 +340,10 @@
 }
 
 .dialog[open] {
-  max-width: 353px;
+  max-width: clamp(21.313rem, 20.96rem + 1.502vw, 22.313rem);
   padding: 30px;
+  padding-inline-start: clamp(2.5rem, 2.72rem + -0.939vw, 1.875rem);
+  padding-inline-end: clamp(2.5rem, 2.72rem + -0.939vw, 1.875rem);
   color: var(--color-main);
   background-color: var(--bg-color);
 }
