@@ -154,8 +154,8 @@
 .theme-menu__item .theme-menu__button:after {
   content: "";
   position: absolute;
-  bottom: -1px;
-  left: 0;
+  bottom: -3px;
+  left: 16px;
   width: 0px;
   height: 2px;
   background-color: var(--color-main);
@@ -163,7 +163,7 @@
 }
 
 .theme-menu__item .theme-menu__button:focus-visible:after {
-  width: 100%;
+  width: calc(100% - 16px);
 }
 
 .theme-menu__item .theme-menu__button::before {
@@ -342,8 +342,8 @@
 .dialog[open] {
   max-width: clamp(21.313rem, 20.96rem + 1.502vw, 22.313rem);
   padding: 30px;
-  padding-inline-start: clamp(2.5rem, 2.72rem + -0.939vw, 1.875rem);
-  padding-inline-end: clamp(2.5rem, 2.72rem + -0.939vw, 1.875rem);
+  padding-inline-start: clamp(1.875rem, 2.72rem + -0.939vw, 2.5rem);
+  padding-inline-end: clamp(1.875rem, 2.72rem + -0.939vw, 2.5rem);
   color: var(--color-main);
   background-color: var(--bg-color);
 }
